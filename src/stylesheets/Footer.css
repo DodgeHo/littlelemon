@@ -1,0 +1,99 @@
+footer {
+    color: #EDEFEE;
+    background-color: #495E57;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    row-gap: 20px;
+    padding-inline: 10%;
+    padding-block: 60px;
+
+    justify-content: space-between;
+    align-content: baseline;
+
+    min-height: 300px;
+}
+
+footer h5 {
+    font-family: Markazi;
+    font-size: 20px;
+    font-weight: 600;
+
+    margin: 0;
+}
+
+footer ul {
+    list-style: none;
+
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+.footerText {
+    text-decoration: none;
+    color: white;
+    font-family: Karla;
+    font-size: 16px;
+    font-weight: 500;
+
+    width: fit-content;
+
+    margin: 0;
+}
+
+footer a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+footer img {
+    filter:brightness(100);
+
+    width: 100px;
+    height: auto;
+    padding-bottom: 50px;
+}
+
+footer .navigation {
+    width: 200px;
+    min-width: 200px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    row-gap: 9px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+footer .contact {
+    width: 200px;
+    min-width: 200px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    row-gap: 9px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+footer .socialMedia {
+    width: 200px;
+    min-width: 200px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    row-gap: 9px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}

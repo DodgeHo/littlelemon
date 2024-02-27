@@ -1,0 +1,169 @@
+#highlights {
+    grid-area: highlights;
+
+    min-height: 620px;
+
+    margin-top: -24px;
+    margin-bottom: 70px;
+    padding-block: 24px;
+}
+
+.highlightsTitle {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    margin-inline: 10%;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.highlightsTitle h1 {
+    color: black;
+    font-family: Markazi;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 550;
+
+    height: fit-content;
+}
+
+.btn {
+    border: none;
+}
+
+.btn.orderOnline {
+    color: #333;
+    text-align: center;
+    font-family: Karla;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 800;
+
+
+    background-color: #F4CE14;
+    height: 48px;
+    width: 200px;
+    min-height: 48px;
+    min-width: 200px;
+    border-radius: 16px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+    margin-top: -9px;
+}
+
+.btn.orderOnline:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #EE9972;
+}
+
+.highlightsContent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 44px;
+
+    justify-content: center;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card {
+    background-color: #EDEFEE;
+    min-width: 300x;
+    min-height: 450px;
+    border-radius: 16px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+    width: 300px;
+    height: 450px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+
+    margin-top: 24px;
+    margin-bottom: 15px;
+}
+
+
+.card img {
+    width: 100%;
+    height: 184px;
+    border-radius: 16px 16px 0px 0px;
+
+    margin: 0;
+
+    object-fit: cover;
+}
+
+.cardHeader {
+    color: #333;
+    font-family: Markazi;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+
+    padding-left: 24px;
+    padding-right: 12px;
+    padding-top: 4px;
+    margin: 0;
+
+    height: fit-content;
+}
+
+.cardPrice {
+    color: #EE9972;
+    font-family: Markazi;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+
+    text-align: right;
+
+    padding-left: 12px;
+    padding-right: 24px;
+    padding-top: 4px;
+    margin: 0;
+
+    height: fit-content;
+}
+
+.cardBody {
+    color: #4D4D4D;
+    font-family: Karla;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+
+    width: 100%;
+
+    padding-inline: 24px;
+    padding-bottom: 50px;
+    margin: 0;
+
+    height: fit-content;
+}
+
+.cardButton {
+    color: #333;
+    font-family: Karla;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+
+    padding-inline: 24px;
+    padding-bottom: 10px;
+    margin: 0;
+    height: fit-content;
+}
+
+.cardButton:hover {
+    cursor: pointer;
+    color: #EE9972;
+}

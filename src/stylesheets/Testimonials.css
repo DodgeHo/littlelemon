@@ -1,0 +1,101 @@
+#testimonials {
+    background-color: #EDEFEE;
+    min-height: 552px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    gap: 51px;
+    align-items: center;
+    justify-content: center;
+
+    padding-block: 20px;
+}
+
+#testimonials h1 {
+    color: black;
+    font-family: Markazi;
+    font-size: 36px;
+    font-weight: 600;
+
+    margin: 0;
+}
+
+.reviews {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    margin-inline: 10%;
+    gap: 20px;
+}
+
+.customerCard {
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    row-gap: 10px;
+    columns: 21px;
+
+    min-width: 250px;
+    min-height: 200px;
+    width: 250px;
+    height: 200;
+
+    margin: 0;
+}
+
+.customerCard h4 {
+    color: black;
+    font-family: Karla;
+    font-size: 15px;
+    font-weight: 500;
+
+    min-width: 100%;
+
+    margin: 0;
+    margin-top: 24px;
+    margin-inline: 24px;
+}
+
+.customerCard img {
+    object-fit: cover;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+    border-radius: 90%;
+    border: none;
+
+    height: 60px;
+    width: 60px;
+
+    margin: 0;
+    margin-inline: 24px;
+}
+
+.customerCard h5 {
+    color: black;
+    font-family: Karla;
+    font-size: 15px;
+    font-weight: 400;
+
+    margin: 0;
+    margin-right: 24px;
+}
+
+.customerCard p {
+    color: black;
+    font-family: Karla;
+    font-size: 14px;
+    font-weight: 400;
+
+    margin: 0;
+    margin-bottom: 28px;
+    margin-inline: 24px;
+}
+
